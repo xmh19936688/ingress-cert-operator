@@ -1,2 +1,3 @@
 # ingress-cert-operator
-Auto issue cert for ingress with cert-manager.
+
+基于`cert-manager`自动为ingress颁发证书。

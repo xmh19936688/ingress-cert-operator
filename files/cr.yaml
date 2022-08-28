@@ -1,0 +1,8 @@
+# apiVersion为crd定义的`${spec.group}/${spec.versions.name}`
+apiVersion: crd.xmh/v1
+# kind为crd定义的 `${spec.names.kind}`
+kind: ClusterIngressIssuer
+metadata:
+  name: xmh-cii
+spec:
+  issuerName: xmh-cluster-issuer
